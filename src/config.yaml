@@ -1,20 +1,22 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name:
+  default: Think Unlimited
+  site: 'https://thinkunlimited.in'
   base: '/'
   trailingSlash: false
 
-  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
+  googleSiteVerificationId: false
 
 # Default SEO metadata
-metadata:
-  title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
-  robots:
-    index: true
-    follow: true
+metadata: Think Unlimited is a digital agency that builds blazing fast websites for startups, small businesses, Sass websites, professional portfolios, marketing websites, landing pages & blogs. We offer a range of services including website design, development, and maintenance. Our team of experienced professionals can help you with any website project from concept to launch.
+
+title: 
+ default: AstroWind
+template: '%s — AstroWind'
+description: "Think Unlimited is a digital agency that builds blazing fast websites for startups, small businesses, Sass websites, professional portfolios, marketing websites, landing pages & blogs. We offer a range of services including website design, development, and maintenance. Our team of experienced professionals can help you with any website project from concept to launch."
+robots:
+  index: true
+  follow: true
   openGraph:
     site_name: AstroWind
     images:

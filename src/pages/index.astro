@@ -7,13 +7,12 @@ import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
-import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'AstroWind — Free template for creating websites with Astro + Tailwind CSS',
+  title: 'Think Unlimited — Building blazing fast websites for businesses',
   ignoreTitleTemplate: true,
 };
 ---
@@ -23,28 +22,21 @@ const metadata = {
 
   <Hero
     actions={[
-      {
-        variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/onwidget/astrowind',
-        target: '_blank',
-        icon: 'tabler:download',
-      },
+      
       { text: 'Learn more', href: '#features' },
     ]}
-    image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
+    image={{ src: '~/assets/images/hero-image.png', alt: 'Think Unlimited - Websites faster than rockets' }}
   >
     <Fragment slot="title">
-      Free template for <span class="hidden xl:inline">creating websites with</span>
-      <span class="text-accent dark:text-white highlight"> Astro 4.0</span> + Tailwind CSS
+      We create <span class="hidden xl:inline">Blazing fast websites which are</span>
+      <span class="text-accent dark:text-white highlight">Mobile First</span> + Fully Responsive
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 4.0
-        + Tailwind CSS.</span
+        <span class="font-semibold">Think Unlimited</span> - we are a Bengaluru based company who specialize in creating super fast websites for businesses based on the letast technology.</span
       >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
+      <span class="block mb-1 sm:hidden font-bold text-blue-600">Think Unlimited: Production-ready.</span>
       Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages &
       Blogs.
     </Fragment>
@@ -59,19 +51,19 @@ const metadata = {
   <Features
     id="features"
     tagline="Features"
-    title="What you get with AstroWind"
-    subtitle="One of the most professional and comprehensive templates currently on the market. Most starred & forked Astro theme in 2022."
+    title="What We Offer"
+    subtitle="One of the most professional and comprehensive web development agencies in Bengaluru. Our websites are built for speed and peerformance."
     items={[
       {
-        title: 'Astro + Tailwind CSS Integration',
+        title: 'Custom HTML + CSS Websites',
         description:
           'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
         icon: 'tabler:brand-tailwind',
       },
       {
-        title: 'Ready-to-use Components',
+        title: 'Timely developments & Deployments',
         description:
-          'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
+          'We ensure timely development and deployment of high-quality solutions to accelerate your business success.',
         icon: 'tabler:components',
       },
       {
@@ -105,13 +97,13 @@ const metadata = {
 
   <Content
     isReversed
-    tagline="Inside template"
-    title="AstroWind's Blueprint: Fun Meets Functionality!"
+    tagline="Unique from every perspective"
+    title="Think Unlimited's Blueprint: Fun Meets Functionality!"
     items={[
       {
-        title: 'Built on top of Astro 4.0',
+        title: 'Built using modern tech stack',
         description:
-          'Benefiting from the performance and developer-friendly features of this modern static site generator.',
+          'We build sites using the latest web technologies, ensuring your website is fast, secure, and user-friendly.',
       },
       {
         title: 'Styled using Tailwind CSS',
@@ -149,9 +141,9 @@ const metadata = {
         description: `Tailor the template effortlessly to match your brand's identity and requirements, making your website distinct and saving you time.`,
       },
       {
-        title: 'Multiple layout possibilities',
+        title: 'Custom UI/UX design',
         description:
-          'Explore various layout options to find the structure that best presents your content, enhancing user engagement and navigation.',
+          'Crafting seamless, user-centric UI/UX designs to elevate the experience of static websites with intuitive, engaging interfaces.',
       },
       {
         title: 'Fully responsive design',
@@ -193,13 +185,13 @@ const metadata = {
           'Ensure your website stays aligned with the latest trends and technologies through regular updates and enhancements.',
       },
       {
-        title: 'Time and resource efficiency',
+        title: 'Time updates and improvements',
         description:
-          'Skip the time-consuming process of building a website from scratch and launch your online presence sooner with AstroWind.',
+          'We provide regular updates and improvements to your website, ensuring it stays relevant and up-to-date.',
       },
       {
-        title: 'Community support',
-        description: `Join the growing AstroWind community for insights, resources, and assistance, ensuring you're never alone on your web development journey.`,
+        title: '24/7 support',
+        description: `For our premium customers, we offer round the clock support and maintenance to ensure your website is always up.`,
       },
     ]}
     image={{
@@ -217,24 +209,24 @@ const metadata = {
   <!-- Steps Widget ****************** -->
 
   <Steps
-    title="Get your dream website up and running in no time with AstroWind."
+    title="Get your dream website up and running in no time with Think Unlimited."
     items={[
       {
-        title: 'Step 1: <span class="font-medium">Download</span>',
+        title: 'Step 1: <span class="font-medium">Get in touch</span>',
         description:
-          "Kickstart with GitHub! Either fork the AstroWind template or simply click 'Use this template'. Your canvas awaits, ready for your digital masterpiece. In just a few clicks, you've already set the foundation.",
+          "Kickstart your website creation with a free consultation. We'll help you understand our offerings and tailor a custom website that fits your needs.",
         icon: 'tabler:package',
       },
       {
-        title: 'Step 2: <span class="font-medium">Add content</span>',
+        title: 'Step 2: <span class="font-medium">Choose a plan</span>',
         description:
-          "Pour your vision into it. Add images, text, and all that jazz to breathe life into your digital space. Remember, it's the content that tells your story, so make it captivating.",
+          "Choose a plan that fits your budget and needs. We offer affordable plans for startups, small businesses, and professionals.",
         icon: 'tabler:letter-case',
       },
       {
-        title: 'Step 3: <span class="font-medium">Customize styles</span>',
+        title: 'Step 3: <span class="font-medium">Let us cook</span>',
         description:
-          'Give it your personal touch. Tailor colors, fonts, and layouts until it feels just right. Your unique flair, amplified by AstroWind! Precision in design ensures a seamless user experience.',
+          'We will create a custom website that is tailored to your needs and specifications. We will also provide ongoing support and maintenance.',
         icon: 'tabler:paint',
       },
       {
@@ -251,77 +243,62 @@ const metadata = {
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Most used widgets"
-    subtitle="Provides frequently used components for building websites using Tailwind CSS"
-    tagline="Components"
+    title="Some of our other services"
+    subtitle="We offer a wide range of services to help you grow your business and achieve your goals."
+    tagline="Other services"
     items={[
       {
-        title: 'Headers',
-        description: "Ever tried driving without GPS? Boom! That's why websites need headers for direction.",
+        title: 'Logo Design',
+        description: "Create a logo that stands out and captures your brand's essence. It's the first step to building a brand identity.",
         icon: 'flat-color-icons:template',
       },
       {
-        title: 'Heros',
+        title: 'Blog posts',
         description:
-          "Picture a superhero landing – epic, right? That's the job of a Hero section, making grand entrances!",
+          "Write engaging blog posts that will help your audience stay engaged and stay up-to-date with your latest news and events.",
         icon: 'flat-color-icons:gallery',
       },
       {
-        title: 'Features',
+        title: 'Social media posts',
         description:
-          'Where websites strut their stuff and show off superpowers. No holding back on the bragging rights here!',
+          'Create engaging social media posts that will help your audience engage with your brand and grow their followers.',
         icon: 'flat-color-icons:approval',
       },
       {
-        title: 'Content',
+        title: 'Content writing',
         description:
-          "Dive into the meat and potatoes of a site; without it, you'd just be window shopping. Content is king.",
+          "Write engaging content that will help your audience understand your brand and engage with your products and services.",
         icon: 'flat-color-icons:document',
       },
       {
-        title: 'Call-to-Action',
+        title: 'Meta Ads',
         description:
-          'That enthusiastic friend who\'s always urging, "Do it! Do it!"? Yeah, that\'s this button nudging you towards adventure.',
+          'Create engaging ads that will help your brand to gain visibility and boost your sales. We can help you with that.',
         icon: 'flat-color-icons:advertising',
       },
       {
-        title: 'Pricing',
-        description: 'Behold the dessert menu of the website world. Tempting choices await, can you resist?',
+        title: 'Ads on streaming platforms',
+        description: 'Create ads on various streaming platforms such as JioCinema, Hotstar, etc. to reach a wider audience.',
         icon: 'flat-color-icons:currency-exchange',
       },
       {
-        title: 'Testimonial',
-        description: 'Step into the gossip corner! Here, other visitors spill the beans and share the juicy details.',
+        title: 'Email marketing',
+        description: 'Send targeted emails to your audience that will engage them and convert them into customers.',
         icon: 'flat-color-icons:voice-presentation',
       },
       {
-        title: 'Contact',
+        title: 'Consulting',
         description:
-          'Like a digital mailbox, but faster! Drop a line, ask a question, or send a virtual high-five. Ding! Message in.',
+          'We offer consulting services to help you understand your business and make the right decisions.',
         icon: 'flat-color-icons:business-contact',
       },
       {
-        title: 'Footers',
-        description: "The footer's like the credits of a movie but sprinkled with easter eggs. Time to hunt!",
+        title: 'Marketing Collaterals',
+        description: "Create collaterals that will help your brand to stand out and gain credibility.",
         icon: 'flat-color-icons:database',
       },
     ]}
   >
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Features2>
-
-  <!-- HighlightedPosts Widget ******* -->
-
-  <BlogLatestPosts
-    title="Find out more content in our Blog"
-    information={`The blog is used to display AstroWind documentation.
-                        Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
-                        Astro is a very interesting technology. Thanks.
-                `}
-  />
-
   <!-- FAQs Widget ******************* -->
 
   <FAQs
