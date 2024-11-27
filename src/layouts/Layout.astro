@@ -28,6 +28,7 @@ const { language, textDirection } = I18N;
 <!doctype html>
 <html lang={language} dir={textDirection} class="2xl:text-[20px]">
   <head>
+    
     <CommonMeta />
     <Favicons />
     <CustomStyles />
@@ -39,6 +40,16 @@ const { language, textDirection } = I18N;
     <!-- Comment the line below to disable View Transitions -->
     <ViewTransitions fallback="swap" />
   </head>
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BET7XQ206C"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BET7XQ206C');
+</script>
 
   <body class="antialiased text-default bg-page tracking-tight">
     <slot />
